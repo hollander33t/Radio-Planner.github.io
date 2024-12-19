@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Planner</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="background-container"></div>
+
+    <div class="container">
+        <h1>Radio Planner - <span id="liveTime">00:00:00</span></h1>
+        
+        <div id="scheduler">
+            <h2>Schema Maken</h2>
+            <form id="scheduleForm">
+                <div class="form-group">
+                    <label for="timeInput">Starttijd:</label>
+                    <input type="time" id="timeInput" required>
+                </div>
+                <div class="form-group">
+                    <label for="stationSelect">Kies een Radiozender:</label>
+                    <select id="stationSelect" required>
+                        <!-- Stations worden dynamisch ingeladen -->
+                    </select>
+                </div>
+                <button type="submit" class="btn">Toevoegen</button>
+                <button class="btn" id="clearListBtn">Clear</button>
+                <button class="btn" id="exportBtn">Export</button>
+                <button class="btn" id="importBtn">Import</button>
+                <input type="file" id="importFile" style="display: none;" accept=".txt">
+            </form>
+
+            <ul id="scheduleList"></ul>
+        </div>
+
+        <div id="player">
+            <h2>Afspelen</h2>
+            <div class="wrapper">
+                <button id="playStopBtn" class="btn">Play</button>
+                <label for="volumeSlider">Volume:</label>
+                <input type="range" id="volumeSlider" min="0" max="100" value="50">
+            </div>
+        </div>
+
+        <!-- Now Playing Sectie -->
+        <div id="nowPlaying" class="hidden">
+            <h2>Now Playing</h2>
+            <p id="currentStation"></p>
+            <p id="timer"></p>
+        </div>
+
+        <div id="message" class="message hidden"></div>
+
+    </div>
+
+    <script src="js/radioManager.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

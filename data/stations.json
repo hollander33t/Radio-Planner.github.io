@@ -1,0 +1,17 @@
+[
+    {"name": "NPO Radio 1", "url": "https://icecast.omroep.nl/radio1-bb-mp3", "logo": "images/logos/npo-radio-1.png"},
+    {"name": "NPO Radio 2", "url": "https://icecast.omroep.nl/radio2-bb-mp3", "logo": "images/logos/npo-radio-2.png"},
+    {"name": "NPO Radio 5", "url": "https://icecast.omroep.nl/radio5-bb-mp3", "logo": "images/logos/npo-radio-5.png"},
+    {"name": "NPO 3FM", "url": "https://icecast.omroep.nl/3fm-bb-mp3", "logo": "images/logos/npo-3fm.png"},
+    {"name": "NPO FunX", "url": "https://icecast.omroep.nl/funx-utrecht-bb-mp3", "logo": "images/logos/npo-funx.png"},
+    {"name": "Radio 538", "url": "https://22323.live.streamtheworld.com/RADIO538.mp3", "logo": "images/logos/radio-538.png"},
+    {"name": "Qmusic", "url": "https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_live.mp3", "logo": "images/logos/qmusic.png"},
+    {"name": "Sky Radio", "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SKYRADIO.mp3", "logo": "images/logos/sky-radio.png"},
+    {"name": "Radio Veronica", "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/VERONICA.mp3", "logo": "images/logos/radio-veronica.png"},
+    {"name": "BNR Nieuwsradio", "url": "https://stream.bnr.nl/bnr_mp3_128_20", "logo": "images/logos/bnr-nieuwsradio.png"},
+    {"name": "Joe", "url": "https://icecast-qmusicnl-cdp.triple-it.nl/Joe_nl.mp3", "logo": "images/logos/joe.png"},
+    {"name": "Slam!", "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SLAM_MP3.mp3", "logo": "images/logos/slam.png"},
+    {"name": "100% NL", "url": "https://www.100p.nl/web04_mp3", "logo": "images/logos/100-nl.png"},
+    {"name": "Sublime FM", "url": "https://stream.sublimefm.nl/SublimeFM_mp3", "logo": "images/logos/sublime-fm.png"},
+    {"name": "Radio 10", "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO10.mp3", "logo": "images/logos/radio-10.png"}
+]
